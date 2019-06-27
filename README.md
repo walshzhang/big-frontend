@@ -16,6 +16,7 @@
   - 桌面：利用窗口、菜单、表单等多种图形控件，使用键盘和鼠标等多种设备完成输入和输出。常用的技术包括 MFC、Java Swing、Qt、WPF 等
   - Web(H5)：与桌面类似，但运行在浏览器中。采用的技术主要有 HTML5，CSS3，Javascript
   - 移动端：以手机为载体，常见的移动端包含 Android 和 iOS
+  - 小程序：无需要安装和部署，运行在微信等应用内，如微信小程序、QQ 小程序、百度小程序、支付宝小程序、快应用......
 - 后端：也称服务器端。一般用于提供数据和服务。
   - 常见的处理流程
     - 数据存储在数据库中
@@ -62,4 +63,9 @@
     - Express：用于开发服务器后端的框架，能够处理 HTTP 请求
     - Angular：采用 MVVM 的前端 UI 框架
     - Node：使用 Node 开发模块
-  - **以 Javascript 语言为开发语言，**
+  - **以 Javascript 语言为开发语言，以一种框架为开发框架，同时适配多个前端**
+    - H5 端：基础 [React 框架](https://reactjs.org)
+    - 移动端：基于 React 框架的 React Native 框架，可同时支持 iOS 和 Android
+    - 桌面端：[React Native for Windows](https://github.com/Microsoft/react-native-windows)，微软官方开发，2019 年 5 月份开源，目前还没有稳定版本
+    - 小程序，快应用等：由京东开发的基于 React 的[Taro 框架](https://github.com/NervJS/taro)
+    - 命令行：基于 React 框架的[ink 框架](https://github.com/vadimdemedes/ink)
