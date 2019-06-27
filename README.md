@@ -35,6 +35,31 @@
 ## 大前端、全栈
 
 - 2009 年，[Nodejs](https://nodejs.org)诞生
+
   - 将 Javascript 的运行环境从浏览器中独立出来
   - Javascript 成为一门宿主语言
   - 当前最新版本为 10.16.0
+  - 借鉴了后端的工程思想，产生了众多的以 Nodejs 为基础的库，框架和工具
+    - MVC：Angular/Vue/React（前端三大框架）
+    - Maven/Gradle：NPM/Yarn
+    - 依赖注入：Angular Inject/Vue Inject
+    - 单元测试：Jest/Jasmine/AVA
+    - 单页应用（SPA）：ES6/Babel/Webpack
+    - Spring：nestjs
+    - 响应式框架：RxJS
+    - 模块化：import/export
+    - ...
+  - 开创了许多新的开发思想和实践
+    - 状态管理：Redux
+    - 组件化 UI：便于代码重用
+    - 函数式编程：如，React Hooks
+    - 前后端的边界逐渐模糊，大前端的趋势正在形成
+
+- 大前端、全栈
+  - **以 Nodejs 为基础，Javascript 语言开始实现后端功能**
+  - 全栈：[MEAN](https://meanjs.org/)
+    - Mongodb：以 JSON 格式存储数据的 NoSQL 数据库
+    - Express：用于开发服务器后端的框架，能够处理 HTTP 请求
+    - Angular：采用 MVVM 的前端 UI 框架
+    - Node：使用 Node 开发模块
+  - **以 Javascript 语言为开发语言，**
