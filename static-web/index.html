@@ -13,20 +13,24 @@
             <tr>
                 <th>完成？</th>
                 <th>描述</th>
+                <th>操作</th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td><input type="checkbox" onclick="toggle(this)" /></td>
                 <td>19周周四上午上研讨课</td>
+                <td><button class="btn btn-danger" onclick="remove(this)">删除</button></td>
             </tr>
             <tr class="text-success">
                 <td><input type="checkbox" checked onclick="toggle(this)" /></td>
                 <td>上完研讨课后要写大作业</td>
+                <td><button class="btn btn-danger" onclick="remove(this)">删除</button></td>
             </tr>
             <tr>
                 <td><input type="checkbox" onclick="toggle(this)" /></td>
                 <td>希望研讨课对我有用，能让我学到新知识</td>
+                <td><button class="btn btn-danger" onclick="remove(this)">删除</button></td>
             </tr>
         </tbody>
     </table>
