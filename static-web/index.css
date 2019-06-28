@@ -1,0 +1,12 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    width: 80%;
+}
+
+.completed {
+    color: green;
+}
