@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TodoApplication",
+            "request": "launch",
+            "mainClass": "iteach.bigfrontend.springbootbackend.TodoApplication",
+            "projectName": "springboot-backend"
+        }
+    ]
+}
