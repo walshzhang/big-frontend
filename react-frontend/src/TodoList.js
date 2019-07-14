@@ -13,7 +13,11 @@ export const TodoList = ({ todos, removeTodo, toggleTodo }) => (
       {todos.map((item, index) => (
         <tr key={index} className={item.done ? 'text-success' : ''}>
           <td>
-            <input type='checkbox' onClick={() => toggleTodo(index)} />
+            <input
+              type='checkbox'
+              onChange={() => toggleTodo(index)}
+              checked={item.done}
+            />
           </td>
           <td>{item.action}</td>
           <td>

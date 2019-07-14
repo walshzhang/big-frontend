@@ -17,15 +17,14 @@ class App extends Component {
     document.title = 'Todo App';
 
     Axios.get(this.url).then(response =>
-      // this.setState({ todos: response.data })
-      console.log(response.data)
+      this.setState({ todos: response.data })
     );
   };
 
   toggleTodo = position => {
     const mapper = (item, index) =>
       position === index ? { ...item, done: !item.done } : item;
-    Axios.post(`${this.url}/toggle/${position}`).then(_ =>
+    Axios.post(`${this.url}/toggle/${position + 1}`).then(_ =>
       this.setState({
         todos: this.state.todos.map(mapper)
       })
@@ -41,7 +40,12 @@ class App extends Component {
   };
 
   addTodo = action => {
-    Axios.post(this.url, { action }).then(_ =>
+    const config = {
+      headers: {
+        'Content-Type': 'application/x-www-form-urlencoded'
+      }
+    };
+    Axios.post(this.url, `action=${action}`, config).then(_ =>
       //TODO 不判断action是否已经存在
       this.setState({ todos: [...this.state.todos, { action, done: false }] })
     );
