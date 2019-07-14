@@ -33,7 +33,7 @@ $(function() {
     const tr = $(this).parents('tr');
     const index = tr.index();
 
-    $.post(`http://localhost:8080/api/todo/toggle/${index}`).done(_ => {
+    $.post(`http://localhost:8080/api/todo/toggle/${index + 1}`).done(_ => {
       tr.addClass(checked ? 'text-success' : '');
     });
   });

@@ -40,7 +40,7 @@ public class TodoController {
             return todo;
         };
 
-        todos.set(index, mapper.apply(todos.get(index)));
+        todos.set(index - 1, mapper.apply(todos.get(index - 1)));
     }
 
     @DeleteMapping("/{index}")
