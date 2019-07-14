@@ -9,4 +9,8 @@ GET http://localhost:8080/api/todo HTTP/1.1
 
 ###
 
+POST http://localhost:8080/api/todo/toggle/1 HTTP/1.1
+
+###
+
 DELETE http://localhost:8080/api/todo/1 HTTP/1.1
