@@ -33,12 +33,14 @@ public class TodoController {
 
     @PostMapping("/toggle/{index}")
     @ResponseStatus(HttpStatus.CREATED)
-    public void addOne(@PathVariable int index) {
+    public void toggle(@PathVariable int index) {
         Function<Todo, Todo> mapper = todo -> {
             boolean done = todo.isDone();
             todo.setDone(!done);
             return todo;
         };
+
+        System.out.println("index = " + index);
 
         todos.set(index - 1, mapper.apply(todos.get(index - 1)));
     }
