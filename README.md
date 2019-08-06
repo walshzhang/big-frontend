@@ -8,10 +8,10 @@
   * 完成或关闭指定TODO: `{path: '/api/todo/toggle/{index}', method: 'POST', status: 200, return: ''}`
   * 删除指定的TODO: `{path: '/api/todo/{index}', method: 'DELETE', status: 200, return: ''}`
 
-## 目前已经完成的后端
+## 已完成的后端
 * `{tech: 'spring-boot', tag: 'springboot-backend'}`
 
-## 目前完成的前端
+## 已完成的Web前端
 * `{tech: 'vuejs', tag: 'use-vue-frontend' }`
 * `{tech: 'vuejs-vuex', tag: 'use-vuex'}`
 * `{tech: 'react', tag: 'use-react'} `
@@ -19,8 +19,11 @@
 * `{tech: ['react', 'hooks'], tag: 'use-react-hooks'}`
 * `{tech: 'jquery', tag: 'use-jquery-ajax-to-read/write-from/to-server'}`
 
+## 已完成的命令行前端
+* `{tech: ['react', 'ink'], tag: 'use-ink-cli'}`
+
 ## 可独立运行的前端
-* `{tech: 'jquery', tag: 'use-jquery-in-static-veb' }`
+* `{tech: 'jquery', tag: 'use-jquery-in-static-web' }`
 
 
 ## 目的
