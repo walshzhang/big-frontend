@@ -19,6 +19,7 @@
 * `{tech: ['react', 'hooks'], tag: 'use-react-hooks'}`
 * `{tech: 'jquery', tag: 'use-jquery-ajax-to-read/write-from/to-server'}`
 * `{tech: ['react', 'typescript'], tag: 'use-react-typescript'}`
+* `{tech: ['react', 'typescript', 'redux'], tag: 'use-react-typescript-redux'}`
 
 ## 已完成的命令行前端
 * `{tech: ['react', 'ink'], tag: 'use-ink-cli'}`
