@@ -26,6 +26,7 @@
 
 ## 可独立运行的前端
 * `{tech: 'jquery', tag: 'use-jquery-in-static-web' }`
+* `{tech: 'javascript', tag: 'use-pure-javascript' }`
 
 
 ## 目的
